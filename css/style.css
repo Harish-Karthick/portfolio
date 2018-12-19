@@ -136,7 +136,7 @@ article#main-col{
 /*Services*/
 
 ul#services li{
-  list-style: none;
+  list-style-type: none;
   padding: 20px;
   border: #cccccc solid 1px;
   margin-bottom: 5px;
@@ -159,9 +159,9 @@ footer{
   header nav li,
   #newsletter h1,
   #newsletter form,
-  #boxes.box,
-  article#maincol,
-  article#sidebar {
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
     float: none;
     text-align: center;
     width: 100%;
@@ -179,5 +179,11 @@ footer{
   #newsletter form input[type="email"]{
     width:100%;
     margin-bottom:5px;
+  }
+  article#main-col,
+  article#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
   }
 }
